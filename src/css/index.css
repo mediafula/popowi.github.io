@@ -1,0 +1,71 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');*/
+
+html{
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Metropolis', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(../img/bgBanteng2.jpg);
+  /* background: url(../img/bgBanteng.jpg); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: auto;
+  height: 100%;
+  /*background: url(../img/bgBanteng.jpg) no-repeat center center fixed;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#header, #counter{
+  font-family: 'MetropolisBold';
+  /*font-weight: bold;*/
+  color: white;
+  -webkit-text-stroke-color: black;
+  font-size: 4.5rem;
+}
+
+#header {
+  -webkit-text-stroke-width: 2px;
+}
+
+#counter {
+  -webkit-text-stroke-width: 2.5px;
+}
+
+.v-divider{
+ margin-left:5px;
+ margin-right:5px;
+ width:1px;
+ height:100%;
+ border-left:0.5px solid #b5b5b5;
+}
+
+.h-divider{
+ margin-top:-10px;
+ margin-bottom:7px;
+ height:1px;
+ width:100%;
+ border-bottom:0.25px solid #b5b5b5;
+}
+
+.btnLeaderboard {
+  border-radius : 0;
+}
+
+.bold, h1, h2, b, .swal2-title {
+  font-family: 'MetropolisBold';
+}
